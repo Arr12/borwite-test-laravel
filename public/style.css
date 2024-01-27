@@ -1,0 +1,28 @@
+.table-reponsive {
+    width: 100%;
+    overflow: auto;
+}
+.sidebar {
+    width: 20%;
+}
+.content {
+    width: 80%;
+}
+.select2 {
+    width: 100% !important;
+}
+.select2-container .select2-selection--single,
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 38px !important;
+    padding: 2px !important;
+}
+
+.w-modal-auto-xl {
+    width: 85% !important;
+    max-width: unset !important;
+}
+@media screen and (max-width: 768px) {
+    .w-modal-auto-xl {
+        width: 95% !important;
+    }
+}
